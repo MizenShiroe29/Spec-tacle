@@ -6,7 +6,7 @@ function Glasses(props)
     console.log("Glasses", props.glasses);
  return(
     <React.Fragment>
-    <div class="card mb-3" style="max-width: 540px">
+    <div class="card mb-3" style={{width:"540px"}}>
   <div class="row g-0">
     <div class="col-md-4">
       <img src={aGlasses.img} class="img-fluid rounded-start" alt="..."/>
