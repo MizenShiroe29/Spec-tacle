@@ -18,25 +18,17 @@ function SiteNav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <Link to="/home" className="nav-link px-2 text-black link-button">
+              <Link to="/home" className="nav-link px-2 link-button">
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/specs"
-                href="#"
-                className="nav-link px-2 text-black link-button"
-              >
+            <li className="nav-item nav-item_spec_cta">
+              <Link to="/specs" href="#" className="nav-link px-2 link-button">
                 Specs
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/about"
-                href="#"
-                className="nav-link px-2 text-black link-button"
-              >
+              <Link to="/about" href="#" className="nav-link px-2 link-button">
                 About
               </Link>
             </li>
