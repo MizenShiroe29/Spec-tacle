@@ -5,7 +5,12 @@ import spectacleService from "./services/services";
 
 function Specs() {
   const [specData, setSpecData] = useState({
-    glassesData: [],
+    glassesData: [
+      {
+      cardImg: '',
+      designer: ''
+      }
+    ],
     glassesComponent: [],
   });
   console.log(specData,setSpecData);
@@ -34,7 +39,7 @@ function Specs() {
     });
   };
   const onGetSpecsError =(err)=>{
-    console.err("error", err);
+    console.error("error", err);
   }
   return (
     <React.Fragment>

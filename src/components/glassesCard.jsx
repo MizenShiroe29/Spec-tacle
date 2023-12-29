@@ -13,9 +13,7 @@ function Glasses(props)
     </div>
     <div className="col-md-8">
       <div className="card-body">
-        <h5 className="card-title">{aGlasses.Title}</h5>
-        <p className="card-text">{aGlasses.desc}</p>
-        <p className="card-text"><small className="text-body-secondary">{aGlasses.manufacture}</small></p>
+        <h5 className="card-title">{aGlasses.designer}</h5>
       </div>
     </div>
   </div>

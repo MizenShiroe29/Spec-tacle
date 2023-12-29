@@ -2,13 +2,13 @@ import axios from "axios";
 import * as helper from "./serviceHelper"
 
 const service = {
-  endpoint: `https://api.remotebootcamp.dev/api/users/`,
+  endpoint: `http://localhost:3001/specs`,
 };
 
 const getSpecs = ()=> {
     const config = {
       method: "Get",
-      url: service.endpoint + "friends",
+      url: service.endpoint,
       crossdomain: true,
       headers: { "Content-Type": "application/json" },
     };
